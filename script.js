@@ -30,9 +30,9 @@ btn.addEventListener("click", () => {
             // Check if the phonetics array has a valid audio file
             const audioUrl = data[0].phonetics[0]?.audio;
             if (audioUrl) {
-                sound.setAttribute("src", audioUrl); // Use the audio URL directly
+                sound.setAttribute("src", audioUrl);
             } else {
-                sound.removeAttribute("src"); // Clear the src if no audio is available
+                sound.removeAttribute("src"); 
                 console.log("No audio available");
             }
         })
