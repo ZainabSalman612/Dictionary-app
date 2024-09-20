@@ -49,7 +49,6 @@ header nav h1 {
     margin-bottom: 50px;
 }
 
-/* Search box before searching */
 .search-box {
     width: 100%;
     display: flex;
@@ -82,7 +81,6 @@ header nav h1 {
     background-color: #3d84a0;
 }
 
-/* Search result after searching */
 .result {
     position: relative;
 }
@@ -140,14 +138,12 @@ header nav h1 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    /* Adjust container width for smaller screens */
     .container {
         width: 95%;
         padding: 60px 30px;
         margin-bottom: 30px;
     }
 
-    /* Search box input and button on smaller screens */
     .search-box input {
         width: 100%;
         margin-bottom: 10px;
@@ -157,7 +153,6 @@ header nav h1 {
         width: 100%;
     }
 
-    /* Word and sound button on smaller screens */
     .result .word {
         flex-direction: column;
         align-items: flex-start;
